@@ -1,0 +1,39 @@
+.card {
+    background-color: #f3f3f3;
+    padding: 20px;
+    width: 300px;
+  }
+
+.card-image {
+  height: 200px;
+  background-image: url("https://via.placeholder.com/300x200");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-details {
+  padding: 20px;
+}
+
+.card-details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-details p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  background-color: #2acfcf;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: #3fe0e0;
+}
